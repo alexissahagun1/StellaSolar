@@ -24,7 +24,7 @@ const imagesWD = [
         
     // },
     {
-        id: 4,
+        id: 3,
         image: 'Image1.png',
         heading: "Pólizas de mantenimiento y servicios post venta",
         body: "Contamos con todas las soluciones post venta para maximizar la rentabilidad de tu proyecto:",
@@ -32,7 +32,7 @@ const imagesWD = [
         
     },
     {
-        id: 5,
+        id: 4,
         image: 'Image1.png',
         heading: "Sistemas de almacenamiento de energía (BESS) y movilidad eléctrica",
         body: "",
@@ -41,7 +41,7 @@ const imagesWD = [
         
     },
     {
-        id: 6,
+        id: 5,
         image: 'Image1.png',
         heading: "Soluciones financieras y Gestión de Trámites",
         body: "Te asesoramos y ofrecemos diferentes opciones de financiamiento de acuerdo a tus necesidades. También gestionamos todos los trámites necesarios para la ejecución de tu proyecto.",
