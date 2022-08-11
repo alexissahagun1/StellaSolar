@@ -15,14 +15,14 @@ const imagesWD = [
         details: "· Montaje de módulos fotovoltaicos\n· Obra civil y suministros\n· Balance de sistema\n· Obra de media tensión\n· Unidad de verificación e inspección\n· Puesta en Marcha\n· Interconexión a la red",
         
     },
-    {
-        id: 3,
-        image: 'Image1.png',
-        heading: "Diseño e Ingeniería",
-        body: "Evaluamos tus necesidades para desarrollar el proyecto a tu medida. Brindamos una amplia gama de análisis y servicios para asegurar la ejecución de tu proyecto:",
-        details: "· Asesoría técnica\n· Análisis preliminar\n· Factibilidad del proyecto\n· Servicio de termografia aérea y puntual\· Estudios de calidad de energía\n· Proyección de generación\n· Cálculo estructural",
+    // {
+    //     id: 3,
+    //     image: 'Image1.png',
+    //     heading: "Diseño e Ingeniería",
+    //     body: "Evaluamos tus necesidades para desarrollar el proyecto a tu medida. Brindamos una amplia gama de análisis y servicios para asegurar la ejecución de tu proyecto:",
+    //     details: "· Asesoría técnica\n· Análisis preliminar\n· Factibilidad del proyecto\n· Servicio de termografia aérea y puntual\· Estudios de calidad de energía\n· Proyección de generación\n· Cálculo estructural",
         
-    },
+    // },
     {
         id: 4,
         image: 'Image1.png',
