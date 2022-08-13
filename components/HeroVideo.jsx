@@ -2,7 +2,6 @@ import React from 'react'
 
 
 const Hero = ({video, heading, message, message2, size}) => {
-    console.log(size)
     return (
         <div className="flex flex-col">
             <video src={video} autoPlay loop muted className={`object-cover ${size} w-full`}/>

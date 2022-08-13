@@ -12,7 +12,7 @@ const imagesWD = [
         image: 'Image1.png',
         heading: "Construcción",
         body: "Nosotros llevamos a cabo la integración de tu proyecto:",
-        details: "· Montaje de módulos fotovoltaicos\n· Obra civil y suministros\n· Balance de sistema\n· Obra de media tensión\n· Unidad de verificación e inspección\n· Puesta en Marcha\n· Interconexión a la red",
+        details: "· Montaje de módulos fotovoltaicos\n· Obra civil y suministros\n· Balance de sistema\n· Obra de media tensión\n· Unidad de verificación e inspección\n· Puesta en marcha\n· Interconexión a la red",
         
     },
     // {
@@ -43,7 +43,7 @@ const imagesWD = [
     {
         id: 5,
         image: 'Image1.png',
-        heading: "Soluciones financieras y Gestión de Trámites",
+        heading: "Soluciones financieras y gestión de trámites",
         body: "Te asesoramos y ofrecemos diferentes opciones de financiamiento de acuerdo a tus necesidades. También gestionamos todos los trámites necesarios para la ejecución de tu proyecto.",
         details: "· Arrendamiento financiero y puro\n· Crédito tradicional\n· Asesoría\n· Trámites y contrato de interconexión\n· Seguimiento post venta",
 
