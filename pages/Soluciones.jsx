@@ -24,13 +24,13 @@ const Soluciones = () => {
 
             <VideoComponent video="video2.mp4" size="md:h-[660px] h-[300px]"/>
 
-            <div className="text-center flex flex-col items-center md:mx-[420px] mx-8 space-y-5">
+            <div className="text-center flex flex-col items-center md:mx-[420px] space-y-5 mx-4">
                 <div className="flex flex-row items-center">
-                    <img src="LineThroughHeading.png" alt="" className="mx-8"/>
-                    <h2 className="uppercase stella-orange font-semibold text-[24px]">Beneficios para su industria o negocio</h2>
-                    <img src="LineThroughHeading.png" alt="" className="mx-8"/>
+                    <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                    <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Beneficios para su industria o negocio</h2>
+                    <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
                 </div>
-                <p className="font-medium text-gray-600 text-[18px] leading-10">Conozca algunos de los beneficios que tendrá por trabajar con paneles solares.</p>
+                <p className="font-medium text-gray-600 md:text-[18px] text-base leading-10">Conozca algunos de los beneficios que tendrá por trabajar con paneles solares.</p>
             </div>
 
             <Beneficios/>
