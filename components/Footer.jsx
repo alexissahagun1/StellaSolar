@@ -8,7 +8,7 @@ const Footer = () => {
 
 
     
-<footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
+<footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 mt-10">
     <div className="md:flex  justify-center lg:mx-56  mx-2 md:space-x-24  md:items-center">
         <div className="flex flex-col mb-6 md:mb-0 space-y-4 md:items-center">
             <a href="https://stellasolar.mx" className="flex items-center">
@@ -78,7 +78,7 @@ const Footer = () => {
             </a>
         </div>
     </div>
-    <div className="sm:flex sm:items-center md:mx-64 sm:justify-between mt-14 px-4">
+    <div className="sm:flex sm:items-center md:mx-56 sm:justify-between mt-14">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 StellaSolar. Todos los derechos reservados
         </span>
     

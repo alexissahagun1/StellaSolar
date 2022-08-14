@@ -6,6 +6,14 @@ import VideoComponent from '../components/VideoComponent'
 import Beneficios from '../components/Beneficios'
 import CarouselComponent from '../components/CarouselComponent'
 import IconsCarousel from '../components/IconsCarousel'
+import carouselIcons from '../components/CarouselIcons'
+import alianzasIcons from '../components/AlianzasIcons'
+import SociosIcons from '../components/SociosIcons'
+import Certificaciones from '../components/Certificaciones'
+import BeneficiosText from '../components/BeneficiosContent'
+import ContactForm from '../components/ContactForm'
+
+
 
 
 const Soluciones = () => {
@@ -33,7 +41,7 @@ const Soluciones = () => {
                 <p className="font-medium text-gray-600 md:text-[18px] text-base leading-10">Conozca algunos de los beneficios que tendrá por trabajar con paneles solares.</p>
             </div>
 
-            <Beneficios/>
+            <Beneficios file={BeneficiosText} headingColor="stella-orange" isUppercase={true} isScaled={true} hasMargin={true}/>
 
 
                 <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
@@ -54,11 +62,34 @@ const Soluciones = () => {
                     </div>
                 </div>
 
-                <IconsCarousel/>
+                <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true} bgColor="bg-gray-200"/>
 
-         
+                <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
+                    <div className="flex flex-row items-center">
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                        <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Alianzas</h2>
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                    </div>
+                </div>
+
+                <IconsCarousel file={alianzasIcons} numberItems={3} isAutoPlay={false}/>
+
+                <Certificaciones/>
+
+                <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
+                    <div className="flex flex-row items-center">
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                        <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Socios Comerciales</h2>
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                    </div>
+                </div>
+
+                <IconsCarousel file={SociosIcons} numberItems={6} isAutoPlay={true} bgColor="bg-white"/>
 
 
+                <VideoComponent video="video2.mp4" size="md:h-[660px] h-[300px]"/>
+
+                <ContactForm isOverlapped={false}/>
 
 
             <Footer/>

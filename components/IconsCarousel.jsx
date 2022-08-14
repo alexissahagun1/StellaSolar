@@ -1,15 +1,14 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import carouselIcons from './CarouselIcons'
 
-const IconsCarousel = () => {
+const IconsCarousel = ({file, numberItems, isAutoPlay, bgColor}) => {
     return (
         <div>
             <Carousel
                  additionalTransfrom={0}
                  arrows={false}
-                 autoPlay={true}
+                 autoPlay={isAutoPlay}
                  autoPlaySpeed={5000}
                  centerMode={false}
                  className="md:mx-[245px] md:h-[200px] rounded-xl md:mt-[50px] m-6"
@@ -31,7 +30,7 @@ const IconsCarousel = () => {
                        max: 3000,
                        min: 1024
                      },
-                     items: 5,
+                     items: numberItems,
                      partialVisibilityGutter: 40
                    },
                    mobile: {
@@ -56,7 +55,7 @@ const IconsCarousel = () => {
                  rtl={false}
                  shouldResetAutoplay
                  showDots={false}
-                 sliderClass="bg-gray-200 flex items-center"
+                 sliderClass={`${bgColor} flex items-center`}
                  slidesToSlide={1}
                  swipeable
             >
@@ -71,7 +70,7 @@ const IconsCarousel = () => {
                 <img src="/icons/Clientes/Icon1.png" alt=""/>
                 <img src="/icons/Clientes/Icon1.png" alt=""/> */}
                
-                {carouselIcons && carouselIcons.map((item) =>
+                {file && file.map((item) =>
                         <div key={item.id} className="flex items-center">
                             <img src={item.icon} alt="" className="scale-75 grow"/>
                         </div>
