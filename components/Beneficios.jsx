@@ -1,6 +1,5 @@
 import React from 'react'
 import BeneficiosText from '../components/BeneficiosContent'
-import { isBot } from 'next/dist/server/web/spec-extension/user-agent'
 
 const Beneficios = () => {
     return (

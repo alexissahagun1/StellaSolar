@@ -4,8 +4,8 @@ import Footer from '../components/Footer'
 import ContentSoluciones from '../components/ContentSoluciones'
 import VideoComponent from '../components/VideoComponent'
 import Beneficios from '../components/Beneficios'
-
-
+import CarouselComponent from '../components/CarouselComponent'
+import IconsCarousel from '../components/IconsCarousel'
 
 
 const Soluciones = () => {
@@ -34,6 +34,30 @@ const Soluciones = () => {
             </div>
 
             <Beneficios/>
+
+
+                <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
+                    <div className="flex flex-row items-center">
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                        <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Proyectos destacados</h2>
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                    </div>
+                </div>
+
+                <CarouselComponent height="h-[365px]"/>
+
+                <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
+                    <div className="flex flex-row items-center">
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                        <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Nuestros Clientes</h2>
+                        <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
+                    </div>
+                </div>
+
+                <IconsCarousel/>
+
+         
+
 
 
 
