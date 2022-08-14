@@ -78,7 +78,7 @@ const Footer = () => {
             </a>
         </div>
     </div>
-    <div className="sm:flex sm:items-center md:mx-56 sm:justify-between mt-14">
+    <div className="sm:flex sm:items-center md:mx-56 sm:justify-between mt-14 ">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 StellaSolar. Todos los derechos reservados
         </span>
     
