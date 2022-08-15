@@ -40,11 +40,11 @@ const Navbar = () => {
                             <a className={currentRoute === "/Nosotros" ? "text-black" : "text-gray-400"}>Nosotros</a>
                         </Link>
                     </li>
-                    <li className="p-4">
+                    {/* <li className="p-4">
                         <Link href="/Soluciones#Industrias">
                             <a className={currentRoute === "/Soluciones#Industrias" ? "text-black" : "text-gray-400"}>Industrias</a>
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="p-4">
                         <Link href="/Contacto">
                             <a className={currentRoute === "/Contacto" ? "text-black" : "text-gray-400"}>Contacto</a>

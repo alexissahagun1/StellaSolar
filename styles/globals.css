@@ -15,11 +15,11 @@ body {
   padding: 0;
 }
 
-.custom-img {
+/* .custom-img {
   background-image: url('../public/HeroSoluciones.jpg');
   background-repeat: no-repeat;
   object-fit: cover;
-}
+} */
 
 .stella-orange {
   color: rgb(255, 127, 48);

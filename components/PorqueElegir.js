@@ -24,7 +24,7 @@ const PorqueElegirText = [
         id: 4,
         icon: 'icons/PorqueElegir/Icon4.png',
         heading: "Calidad",
-        body: "Elegimos las mejores marcas para alargar la vida útil de tus proyectos y garantizar la seguridad de tus instalaciones y personal. Además, los productos de las marcas que elegimos están certificadas por agencias internacionales y son evaluados bajo pruebas de laboratorio que simulan hasta los escenarios más extremos.",
+        body: "Elegimos las mejores marcas para alargar la vida útil de tus proyectos y garantizar la seguridad del personal e instalaciones. Además, los productos de las marcas que elegimos están certificadas por agencias internacionales y son evaluados bajo pruebas de laboratorio que simulan hasta los escenarios más extremos.",
 
         
     },

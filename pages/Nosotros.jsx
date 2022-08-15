@@ -26,7 +26,7 @@ const Nosotros = () => {
 
             <div className="flex md:flex-row flex-col  xl:mx-[200px] lg:mx-[100px] mx-8 lg:mt-[100px] mt-8 md:space-x-10 space-y-4 md:space-y-0 md:items-start items-center">
 
-                <img src="SolidezConfianza.png" className="object-contain xl:max-w-lg lg:max-w-md md:max-w-sm max-w-xs" alt=""/>
+                <img src="/fotos/Image33.JPG" className="object-contain xl:max-w-lg lg:max-w-md md:max-w-sm max-w-xs" alt=""/>
 
                 <div className="flex flex-col lg:space-y-10 md:space-y-6 space-y-4">
 

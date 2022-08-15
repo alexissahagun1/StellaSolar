@@ -10,7 +10,7 @@ const Certificaciones = () => {
     return (
 
         <div>
-            <div className="relative xl:h-[1500px] lg:h-[1550px] md:h-[1630px] h-[1250px] w-screen mt-2020">
+            <div className="relative xl:h-[1500px] lg:h-[1550px] md:h-[1630px] h-[1250px] w-screen mt-20">
                 <Image src={src} layout="fill" objectFit="cover"/>
                 <div className="relative flex flex-col items-center mx-8 md:mx-0">
                     <h6 className="mt-[70px] uppercase font-semibold leading-[36px] text-[24px] text-gray-700">Certificaciones</h6>
