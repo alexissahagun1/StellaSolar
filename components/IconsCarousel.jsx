@@ -9,7 +9,7 @@ const IconsCarousel = ({file, numberItems, isAutoPlay, bgColor}) => {
                  additionalTransfrom={0}
                  arrows={false}
                  autoPlay={isAutoPlay}
-                 autoPlaySpeed={5000}
+                 autoPlaySpeed={2500}
                  centerMode={false}
                  className="md:mx-[245px] md:h-[200px] rounded-xl md:mt-[50px] m-6"
                  containerClass="container-with-dots"

@@ -33,7 +33,7 @@ const imagesWD = [
     },
     {
         id: 4,
-        image: '/Fotos/Image42.JPG',
+        image: '/Fotos/Image42.jpg',
         heading: "Sistemas de almacenamiento de energía (BESS) y movilidad eléctrica",
         body: "",
         details: "· Asesoría y consultoría energética de su sistema\n· Diseño e instalación del sistema de almacenamiento de energía\n· Monitoreo de cumplimiento de objetivo de negocio\n· Microredes off-grid\n· Integración de instalaciones\n· Carga de vehículos eléctricos",

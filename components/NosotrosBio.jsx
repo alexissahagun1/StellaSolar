@@ -4,7 +4,7 @@ const NosotrosBio = () => {
     return (
         <div className="mt-[70px] xl:mx-[320px] mx-8 space-y-8 md:text-[20px] text-[18px] leading-[36px]  opacity-90">
 
-            <p>Somos una empresa 100% mexicana, líder en el mercado de generación distribuida de energía fotovoltaica para aplicaciones industriales y comerciales a nivel nacional.</p>
+            <p>Somos una empresa 100% mexicana, líder en el mercado de energía fotovoltaica para aplicaciones industriales y comerciales a nivel nacional.</p>
             <p>En Stella Solar nos caracterizamos por ser un solo punto de contacto para todo un proyecto, debido a que nosotros ofrecemos a nuestros clientes:</p>
             <ul>
                 <li> <span className="text-orange-500 font-extrabold">·</span> Asesorías técnicas</li>

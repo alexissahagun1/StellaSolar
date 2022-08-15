@@ -3,7 +3,7 @@ const imagesWD = [
         id: 1,
         image: '/Fotos/Image30.JPG',
         heading: "De donde venimos",
-        body: "Stella Solar nació con una visión a futuro considerando que las energías renovables son clave para el desarrollo económico y social, sumando tam bién la preocupación ambiental que aumenta día con día. A raíz de esto, nuestro objetivo se enfocó en ayudar a las empresas a ser más competitivas con la integración de tecnologías de conversión de energía solar a electricidad para eliminar los costos operativos derivados de sus altos consumos de energía",
+        body: "Stella Solar nació con una visión a futuro considerando que las energías renovables son clave para el desarrollo económico y social, sumando también la preocupación ambiental que aumenta día con día. A raíz de esto, nuestro objetivo se enfocó en ayudar a las empresas a ser más competitivas con la integración de tecnologías de conversión de energía solar a electricidad para eliminar los costos operativos derivados de sus altos consumos de energía",
         
     },
     {
