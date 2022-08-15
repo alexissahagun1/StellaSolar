@@ -1,6 +1,20 @@
-import React from 'react'
+import React, {useRef} from 'react'
+import emailjs from '@emailjs/browser'
 
 const ContactForm = ({isOverlapped}) => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        event.preventDefault();
+        emailjs.sendForm('service_didnm07', 'template_lsawl4e', form.current, '4Q2DhFgWFi4d_oHub')
+        .then((result) => {
+        console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+    }
+
     return (
         <div className={`bg-gray-200 rounded-md border border-gray-300  md:-top-16 ${isOverlapped ? "-top-8 relative" : "top"} xl:mx-56 lg:mx-24 mx-8 pb-20`}>
             <div className="flex md:flex-row flex-col md:space-x-12 mx-9 my-14">
@@ -10,25 +24,25 @@ const ContactForm = ({isOverlapped}) => {
                 </div>
                 <div className="grow">
                     <h6 className="text-lg font-medium mb-7 mt-6 md:mt-0">¡Contáctanos!</h6>
-                    <form action="" className="space-y-8">
+                    <form ref={form} onSubmit={sendEmail} action="" className="space-y-8">
                         <div className="grid md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-6 ">
                             <div>
-                                <input type="text" id="email" className="shadow-md bg-gray-50 border border-gray-300 font-bold text-gray-900 text-sm rounded-sm p-3 w-full" placeholder="Nombre*" required/>
+                                <input type="text" name="firstName" id="email" className="shadow-md bg-gray-50 border border-gray-300 font-bold text-gray-900 text-sm rounded-sm p-3 w-full" placeholder="Nombre*" required/>
                             </div>
                             <div>
-                                <input type="text" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Apellido*" required/>
+                                <input type="text" name="LastName" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Apellido*" required/>
                             </div>
                             <div className="sm:col-span-2">
-                                <input type="email" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Email Corporativo*" required/>
+                                <input type="email" name="email" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Email Corporativo*" required/>
                             </div>
                             <div className="sm:col-span-2">
-                                <input type="text" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Empresa*" required/>
+                                <input type="text" name="Empresa" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Empresa*" required/>
                             </div>
                             <div>
-                                <input type="text" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Empresa*" required/>
+                                <input type="text" name="Posicion" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Posición*" required/>
                             </div>
                             <div>
-                                <input type="text" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Área*" required/>
+                                <input type="text" name="Area" id="subject" className="block p-3 w-full text-sm font-bold text-gray-900 bg-gray-50 rounded-sm border border-gray-300 shadow-md" placeholder="Área*" required/>
                             </div>
                         </div>
 

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "file-loader": "^6.2.0",
     "flowbite": "^1.5.1",
     "flowbite-react": "^0.1.5",
