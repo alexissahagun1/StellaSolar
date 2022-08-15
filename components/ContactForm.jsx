@@ -1,16 +1,37 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const ContactForm = ({isOverlapped}) => {
     const form = useRef();
+    
+
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    // }
+
+    const toastSuccess = () => {
+        toast.success("¡Gracias por contactarnos!" ,{
+            position: toast.POSITION.BOTTOM_RIGHT
+        });
+    }
+    const toastError = () => {
+        toast.error("¡Ocurrió un error!" ,{
+            position: toast.POSITION.BOTTOM_RIGHT
+        });
+    }
 
     const sendEmail = (e) => {
         event.preventDefault();
         emailjs.sendForm('service_didnm07', 'template_lsawl4e', form.current, '4Q2DhFgWFi4d_oHub')
         .then((result) => {
         console.log(result.text);
+        toastSuccess();
         }, (error) => {
           console.log(error.text);
+          toastError();
       });
       e.target.reset()
     }
@@ -24,7 +45,7 @@ const ContactForm = ({isOverlapped}) => {
                 </div>
                 <div className="grow">
                     <h6 className="text-lg font-medium mb-7 mt-6 md:mt-0">¡Contáctanos!</h6>
-                    <form ref={form} onSubmit={sendEmail} action="" className="space-y-8">
+                    <form ref={form} onSubmit={sendEmail}  className="space-y-8">
                         <div className="grid md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-6 ">
                             <div>
                                 <input type="text" name="firstName" id="email" className="shadow-md bg-gray-50 border border-gray-300 font-bold text-gray-900 text-sm rounded-sm p-3 w-full" placeholder="Nombre*" required/>
@@ -47,19 +68,24 @@ const ContactForm = ({isOverlapped}) => {
                         </div>
 
                         <div className="flex flex-row items-center">
-                            <input id="link-checkbox" type="checkbox" value="" className="w-6 h-6 text-blue-600 bg-gray-100 rounded border-gray-300"/>
+                            <input id="link-checkbox" type="checkbox" value="" className="w-6 h-6 text-blue-600 bg-gray-100 rounded border-gray-300" required/>
                             <label htmlFor="link-checkbox" className="ml-2 text-xs font-medium text-gray-900">He leído y acepto los términos establecidos en el Aviso de Privacidad. <br/>Tu información está protegida. Conoce nuestro <a href="#" className="stella-orange underline">aviso de privacidad</a>.</label>
                         </div>
 
                         <div className="flex justify-center relative top-10">
-                            <button className="px-16 py-2.5 text-white font-semibold rounded-md shadow-md border border-gray-400 " style={{backgroundColor: "rgb(255, 127, 48)"}}>Contacta con uno de nuestros asesores</button>
+                            <button className="px-16 py-2.5 text-white md:text-base text-xs font-semibold rounded-md shadow-md border border-gray-400 " style={{backgroundColor: "rgb(255, 127, 48)"}}>Contacta con uno de nuestros asesores</button>
                         </div>
         
                     </form>
+
+
                     
                 </div>
                 
         </div>
+
+
+            <ToastContainer />
     </div>
     )
 }
