@@ -11,7 +11,7 @@ const Navbar = () => {
 
     const router = useRouter()
     const currentRoute = router.pathname
-    console.log(currentRoute)
+
 
     const handleNav = () => {
         setNav(!nav)
@@ -36,13 +36,13 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="p-4">
-                        <Link href="/Soluciones#Industrias">
-                            <a className={currentRoute === "/Soluciones#Industrias" ? "text-black" : "text-gray-400"}>Industrias</a>
+                        <Link href="/Nosotros">
+                            <a className={currentRoute === "/Nosotros" ? "text-black" : "text-gray-400"}>Nosotros</a>
                         </Link>
                     </li>
                     <li className="p-4">
-                        <Link href="/Nosotros">
-                            <a className={currentRoute === "/Nosotros" ? "text-black" : "text-gray-400"}>Nosotros</a>
+                        <Link href="/Soluciones#Industrias">
+                            <a className={currentRoute === "/Soluciones#Industrias" ? "text-black" : "text-gray-400"}>Industrias</a>
                         </Link>
                     </li>
                     <li className="p-4">

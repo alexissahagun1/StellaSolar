@@ -22,7 +22,7 @@ const Soluciones = () => {
         <div>
             <HeroVideo video="video1.mp4" heading="Comercializamos e instalamos  sistemas fotovoltaicos para el sector industrial, comercial y residencial" message="Ahorrar y cuidar del planeta nunca fue tan sencillo" size="md:h-[789px] h-[600px]"/>
 
-            <div className="text-center mt-[104px] flex flex-col items-center md:mx-[420px] mx-8">
+            <div className="text-center mt-[104px] flex flex-col items-center xl:mx-[420px] mx-8">
                 <h2 className="uppercase stella-orange font-semibold text-[24px] mb-8">Soluciones llave en mano para tus necesidades</h2>
                 <p className="font-base text-gray-600 text-[20px] leading-10">Nos encargamos de gestionar todo tipo de proyectos ofreciendo una solución integral para poner en marcha tu sistema.</p>
                 <p className="font-medium text-gray-600 text-[20px] leading-10">Un solo punto de contacto para todo el proyecto.</p>
@@ -32,7 +32,7 @@ const Soluciones = () => {
 
             <VideoComponent video="video2.mp4" size="md:h-[660px] h-[300px]"/>
 
-            <div className="text-center flex flex-col items-center md:mx-[420px] space-y-5 mx-4">
+            <div id="/Soluciones#Industrias" className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8">
                 <div className="flex flex-row items-center">
                     <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
                     <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Beneficios para su industria o negocio</h2>
@@ -72,7 +72,7 @@ const Soluciones = () => {
                     </div>
                 </div>
 
-                <IconsCarousel file={alianzasIcons} numberItems={3} isAutoPlay={false}/>
+                <IconsCarousel file={alianzasIcons} numberItems={3} isAutoPlay={true}/>
 
                 <Certificaciones/>
 

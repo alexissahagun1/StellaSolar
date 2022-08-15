@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactForm = ({isOverlapped}) => {
     return (
-        <div className={`bg-gray-200 rounded-md border border-gray-300  md:-top-16 ${isOverlapped ? "-top-8 relative" : "top"} md:mx-56 pb-20`}>
+        <div className={`bg-gray-200 rounded-md border border-gray-300  md:-top-16 ${isOverlapped ? "-top-8 relative" : "top"} xl:mx-56 lg:mx-24 mx-8 pb-20`}>
             <div className="flex md:flex-row flex-col md:space-x-12 mx-9 my-14">
                 <div className="md:w-5/12 w-full">
                     <h6 className="uppercase font-bold text-2xl text-gray-700">Solicita una asesoría sin compromiso</h6>
