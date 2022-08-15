@@ -37,7 +37,7 @@ const Valores = ({headingColor, isUppercase, isScaled, hasMargin, isHidden}) => 
                
                <img className="col-start-2 col-span-1 row-start-1 row-end-4" src="/" alt=""/>
 
-               <img className="grid col-start-2 col-span-1 row-start-2 row-end-4 hidden" src="/icons/Valores/IconStella.png" alt=""/>
+               <img className="md:grid col-start-2 col-span-1 row-start-2 row-end-4 hidden" src="/icons/Valores/IconStella.png" alt=""/>
             </div>
             
         </div>
