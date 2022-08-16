@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import logo from '../public/Logo.png'
 
 const Footer = () => {
@@ -45,7 +46,9 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 stella-orange font-bold">Compañia</h2>
                 <ul className="font-medium text-xs w-36 flex flex-col space-y-2">
                     <li className="mb-4">
-                        <a href="#">Nosotros</a>
+                    <Link href="/Nosotros">
+                            <a>Nosotros</a>
+                    </Link>
                     </li>
                 </ul>
             </div>
