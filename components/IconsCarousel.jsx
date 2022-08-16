@@ -9,9 +9,9 @@ const IconsCarousel = ({file, numberItems, isAutoPlay, bgColor}) => {
                  additionalTransfrom={0}
                  arrows={false}
                  autoPlay={isAutoPlay}
-                 autoPlaySpeed={2500}
+                 autoPlaySpeed={3000}
                  centerMode={false}
-                 className="md:mx-[245px] md:h-[200px] rounded-xl md:mt-[50px] m-6"
+                 className="md:mx-[245px] md:h-[200px] rounded-xl md:mt-[0px] m-6"
                  containerClass="container-with-dots"
                  dotListClass=""
                  draggable
@@ -59,20 +59,11 @@ const IconsCarousel = ({file, numberItems, isAutoPlay, bgColor}) => {
                  slidesToSlide={1}
                  swipeable
             >
-{/* 
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/>
-                <img src="/icons/Clientes/Icon1.png" alt=""/> */}
-               
+
                 {file && file.map((item) =>
-                        <div key={item.id} className="flex items-center">
-                            <img src={item.icon} alt="" className="scale-75 grow"/>
+                        <div key={item.id} className="flex justify-center">
+                            <a href={item.link} className=""><img src={item.icon} alt="" className="scale-[1] grow"/></a>
+                           
                         </div>
                     )}
                   

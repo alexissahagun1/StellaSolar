@@ -49,7 +49,12 @@ const carouselImages = [
         id: 10,
         image: '/Fotos/Image25.JPG',
         
-    }
+    },
+    {
+        id: 11,
+        image: '/Fotos/Image43.jpg',
+        
+    },
 ]
 
 export default carouselImages; 

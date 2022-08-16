@@ -62,7 +62,7 @@ const Soluciones = () => {
                     </div>
                 </div>
 
-                <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true} bgColor="bg-gray-200"/>
+                <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true} bgColor=""/>
 
                 <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
                     <div className="flex flex-row items-center">
@@ -84,7 +84,7 @@ const Soluciones = () => {
                     </div>
                 </div>
 
-                <IconsCarousel file={SociosIcons} numberItems={6} isAutoPlay={true} bgColor="bg-white"/>
+                <IconsCarousel file={SociosIcons} numberItems={4} isAutoPlay={true} bgColor="bg-white"/>
 
 
                 <VideoComponent video="video2.mp4" size="md:h-[660px] h-[300px]"/>
