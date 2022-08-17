@@ -10,7 +10,7 @@ const Footer = () => {
 
     
 <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 mt-10 border-t-2 border-gray-300">
-    <div className="md:flex  justify-center  mx-2 md:space-x-24  lg:items-center">
+    <div className="md:flex  justify-center 3xl:justify-start md:space-x-24  lg:items-center">
         <div className="flex flex-col mb-6 md:mb-0 space-y-4 md:items-center">
             <a href="https://stellasolar.mx" className="flex items-center">
             <div className="">
@@ -64,76 +64,14 @@ const Footer = () => {
             </a>
         </div>
     </div>
-    <div className="sm:flex md:items-center xl:mx-20 lg:mx-2 sm:justify-between mt-14 ">
+    <div className="sm:flex md:items-center xl:mx-14  3xl:mx-0 lg:mx-2 sm:justify-end mt-14 ">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 StellaSolar. Todos los derechos reservados
         </span>
     
     </div>
 </footer>
        
-{/*            
-<footer className="p-4 bg-white sm:p-6  mt-16">
-    <div className="md:flex md:justify-start mx-56 space-x-32 items-center">
-        <div className="flex mb-6 md:mb-0 flex-col space-y-4">
-            <a href="https://flowbite.com/" className="flex items-center">
-               
-                <div className="">
-                        <Image src={logo}
-                        width={235}
-                        height={55}
-                        />
-                    </div>
-            </a>
-            <div className="w-56 space-y-4">
-                <p className="text-xs font-medium">Comercializamos e instalamos sistemas fotovoltaicos para el sector industrial, comercial y residencial</p>
-                <p className="text-xs font-bold stella-orange">Ahorrar y cuidar del planeta nunca fue tan sencillo como hasta ahora.</p>
-            </div>
-        </div>
-        <div className="grid grid-cols-3 gap-10 sm:gap-6 sm:grid-cols-3">
-            <div>
-                <h2 className="mb-6 text-sm font-bold text-gray-900 stella-orange">Soluciones</h2>
-                <ul className="font-medium text-xs w-36 flex flex-col space-y-2">
-                    <li>
-                        <a href="https://flowbite.com/">Paneleres solares para industrias</a>
-                    </li>
-                    <li>
-                        <a href="https://tailwindcss.com/">Sistemas de almacenamiento de energía</a>
-                    </li>
-                    <li>
-                        <a href="https://tailwindcss.com/">O&M</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2 className="mb-6 text-sm font-bold text-gray-900 stella-orange">Industrias</h2>
-                <ul className="font-medium text-xs w-36 flex flex-col space-y-2">
-                    <li className="mb-4">
-                        <a href="https://github.com/themesberg/flowbite">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://discord.gg/4eeurUVvTy">Discord</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2 className="mb-6 text-sm font-bold text-gray-900 stella-orange">Compañia</h2>
-                <ul className="font-medium text-xs w-36 flex flex-col space-y-2">
-                    <li className="mb-4">
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms &amp; Conditions</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div className="sm:flex sm:items-center sm:justify-between mx-56 mt-16">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://stellasolar.mx">StellaSolar</a>. Todos los derechos reservados.
-        </span>
-       
-    </div>
-</footer> */}
+
 
 
         </div>
