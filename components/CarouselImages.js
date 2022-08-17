@@ -1,12 +1,12 @@
 const carouselImages = [
     {
         id: 1,
-        image: '/Fotos/Image44.JPG',
+        image: '/Fotos/Image44.jpg',
         
     },
     {
         id: 2,
-        image: '/Fotos/Image45.JPG',
+        image: '/Fotos/Image45.jpg',
         
     },
     {
@@ -37,7 +37,7 @@ const carouselImages = [
     },
     {
         id: 19,
-        image: '/Fotos/Image14.jpg',
+        image: '/Fotos/Image14.JPG',
         
     },
     {
@@ -67,12 +67,12 @@ const carouselImages = [
     },
     {
         id: 12,
-        image: '/Fotos/Image5.jpg',
+        image: '/Fotos/Image5.JPG',
         
     },
     {
         id: 13,
-        image: '/Fotos/Image11.jpg',
+        image: '/Fotos/Image11.JPG',
         
     },
     {
@@ -92,27 +92,27 @@ const carouselImages = [
     },
     {
         id: 14,
-        image: '/Fotos/Image10.jpg',
+        image: '/Fotos/Image10.JPG',
         
     },
     {
         id: 15,
-        image: '/Fotos/Image27.jpg',
+        image: '/Fotos/Image27.JPG',
         
     },
     {
         id: 16,
-        image: '/Fotos/Image32.jpg',
+        image: '/Fotos/Image32.JPG',
         
     },
     {
         id: 17,
-        image: '/Fotos/Image36.jpg',
+        image: '/Fotos/Image36.JPG',
         
     },
     {
         id: 18,
-        image: '/Fotos/Image34.jpg',
+        image: '/Fotos/Image34.JPG',
         
     },
    
