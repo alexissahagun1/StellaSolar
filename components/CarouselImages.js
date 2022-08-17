@@ -115,6 +115,16 @@ const carouselImages = [
         image: '/Fotos/Image34.JPG',
         
     },
+    {
+        id: 24,
+        image: '/Fotos/Image50.jpg',
+        
+    },
+    {
+        id: 25,
+        image: '/Fotos/Image51.jpg',
+        
+    },
    
 
     
