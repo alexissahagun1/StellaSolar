@@ -58,7 +58,7 @@ const Nosotros = () => {
                     </div>
                 </div>
 
-            <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true} bgColor="bg-gray-200"/>
+            <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true}/>
 
 
 
