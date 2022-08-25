@@ -41,7 +41,7 @@ const ContactForm = ({isOverlapped}) => {
             <div className="flex md:flex-row flex-col md:space-x-12 mx-9 my-14">
                 <div className="md:w-5/12 w-full">
                     <h6 className="uppercase font-bold text-2xl text-gray-700">Solicita una asesoría sin compromiso</h6>
-                    <p className="mt-9 text-base font-medium leading-7 tracking-tight">Agenda una llamada con uno de nuestros consultores energéticos para aclarar cualquier duda y obtener una cotización personalizada y completamente gratuita.</p>
+                    <p className="mt-9 text-base font-medium leading-7 tracking-tight">Agenda una llamada con uno de nuestros consultores especializados para aclarar cualquier duda y obtener una cotización personalizada y completamente gratuita.</p>
                 </div>
                 <div className="grow">
                     <h6 className="text-lg font-medium mb-7 mt-6 md:mt-0">¡Contáctanos!</h6>

@@ -28,7 +28,7 @@ const imagesWD = [
         image: '/Fotos/Image29.JPG',
         heading: "Pólizas de mantenimiento y servicios post venta",
         body: "Contamos con todas las soluciones post venta para maximizar la rentabilidad de tu proyecto:",
-        details: "· Servicios de operación y mantenimiento (O&M)\n· Mantenimiento preventivo\n· Mantenimiento correctivo\n· Evaluación energética\n· Gestión de garantía fabricantes\n· Monitoreo en tiempo real 24/7\n· Diagnóstico de fallas en planta solar",
+        details: "· Servicios de operación y mantenimiento (O&M)\n· Mantenimiento preventivo\n· Mantenimiento correctivo\n· Evaluación energética\n· Gestión de garantía con fabricantes\n· Monitoreo en tiempo real 24/7\n· Diagnóstico de fallas en planta solar",
         
     },
     {

@@ -3,14 +3,14 @@ const ValoresText = [
         id: 1,
         icon: '/icons/Valores/Icon1.png',
         heading: "Confianza",
-        body: "En Stella Solar incentivamos la confianza dentro de la organzación para mejorar la comunicación y la iniciativa de nuestros trabajadores, con ello podemos trabajar nuestras áreas de oportunidad para ofrecer un mejor servicio a nuestros clientes.",
+        body: "En Stella Solar incentivamos la confianza dentro de la organzación para mejorar la comunicación y la iniciativa de nuestros trabajadores. Con ello, podemos trabajar nuestras áreas de oportunidad para ofrecer un mejor servicio a nuestros clientes.",
         
     },
     {
         id: 2,
         icon: '/icons/Valores/Icon2.png',
         heading: "Competitividad",
-        body: "En Stella Solar nos epeñamos en ser los mejores, por ello constantemente estamos mejorando nuestros procesos para garantizar que tenemos las mejores soluciones del mercado para nuestros clientes.",
+        body: "En Stella Solar nos empeñamos en ser los mejores, por ello constantemente estamos mejorando nuestros procesos para garantizar que tenemos las mejores soluciones del mercado para nuestros clientes.",
         
     },
     {
