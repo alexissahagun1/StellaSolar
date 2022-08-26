@@ -13,6 +13,7 @@ const Navbar = () => {
     const currentRoute = router.pathname
 
 
+
     const handleNav = () => {
         setNav(!nav)
     }

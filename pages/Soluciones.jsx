@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import HeroVideo from '../components/HeroVideo'
 import Footer from '../components/Footer'
 import ContentSoluciones from '../components/ContentSoluciones'
@@ -12,6 +13,7 @@ import SociosIcons from '../components/SociosIcons'
 import Certificaciones from '../components/Certificaciones'
 import BeneficiosText from '../components/BeneficiosContent'
 import ContactForm from '../components/ContactForm'
+import Title from '../components/Title'
 
 
 
@@ -20,6 +22,7 @@ const Soluciones = () => {
 
     return (
         <div>
+            <Title/>
             <HeroVideo video="heroVideo.mp4" heading="Comercializamos e instalamos  sistemas fotovoltaicos para el sector industrial, comercial y residencial" message="Ahorrar y cuidar del planeta nunca fue tan sencillo" size="md:h-[789px] h-[600px]"/>
 
             <div className="text-center mt-[104px] flex flex-col items-center xl:mx-[420px] mx-8">
