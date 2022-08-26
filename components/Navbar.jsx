@@ -41,11 +41,6 @@ const Navbar = () => {
                             <a className={currentRoute === "/Nosotros" ? "text-black" : "text-gray-400"}>Nosotros</a>
                         </Link>
                     </li>
-                    {/* <li className="p-4">
-                        <Link href="/Soluciones#Industrias">
-                            <a className={currentRoute === "/Soluciones#Industrias" ? "text-black" : "text-gray-400"}>Industrias</a>
-                        </Link>
-                    </li> */}
                     <li className="p-4">
                         <Link href="/Contacto">
                             <a className={currentRoute === "/Contacto" ? "text-black" : "text-gray-400"}>Contacto</a>
@@ -63,9 +58,9 @@ const Navbar = () => {
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Soluciones">Soluciones</Link>
                         </li>
-                        <li onClick={handleNav}  className="text-2xl hover:text-white">
+                        {/* <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Soluciones#Industrias">Industrias</Link>
-                        </li>
+                        </li> */}
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Nosotros">Nosotros</Link>
                         </li>
