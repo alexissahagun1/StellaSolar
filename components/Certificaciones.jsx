@@ -60,7 +60,7 @@ const Certificaciones = () => {
                             </div>
                         </div>
 
-                        <Beneficios file={PorqueElegirText} headingColor="text-white" isUppercase={false} isHidden={true}/>
+                        <Beneficios file={PorqueElegirText} headingColor="text-white" isUppercase={false} isHidden={true} marginQuantity={"xl:mx-[158px]"}/>
 
 
                     </div>

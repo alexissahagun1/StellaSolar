@@ -41,7 +41,7 @@ const Soluciones = () => {
                 <p className="font-medium text-gray-600 md:text-[18px] text-base leading-10">Conozca algunos de los beneficios que tendrá por trabajar con paneles solares.</p>
             </div>
 
-            <Beneficios file={BeneficiosText} headingColor="stella-orange" isUppercase={true} isScaled={true} hasMargin={true}/>
+            <Beneficios file={BeneficiosText} headingColor="stella-orange" isUppercase={false} isHidden={true} marginQuantity={"2xl:mx-[330px] xl:mx-[150px]"}/>
 
 
                 <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
