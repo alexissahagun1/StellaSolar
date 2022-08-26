@@ -20,7 +20,7 @@ const Soluciones = () => {
 
     return (
         <div>
-            <HeroVideo video="video1.mp4" heading="Comercializamos e instalamos  sistemas fotovoltaicos para el sector industrial, comercial y residencial" message="Ahorrar y cuidar del planeta nunca fue tan sencillo" size="md:h-[789px] h-[600px]"/>
+            <HeroVideo video="heroVideo.mp4" heading="Comercializamos e instalamos  sistemas fotovoltaicos para el sector industrial, comercial y residencial" message="Ahorrar y cuidar del planeta nunca fue tan sencillo" size="md:h-[789px] h-[600px]"/>
 
             <div className="text-center mt-[104px] flex flex-col items-center xl:mx-[420px] mx-8">
                 <h2 className="uppercase stella-orange font-semibold text-[24px] mb-8">Soluciones llave en mano para tus necesidades</h2>
@@ -30,7 +30,7 @@ const Soluciones = () => {
 
             <ContentSoluciones/>
 
-            <VideoComponent video="video2.mp4" size="md:h-[660px] h-[300px]"/>
+            <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/>
 
             <div id="/Soluciones#Industrias" className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8">
                 <div className="flex flex-row items-center">
@@ -87,7 +87,7 @@ const Soluciones = () => {
                 <IconsCarousel file={SociosIcons} numberItems={4} isAutoPlay={true} bgColor="bg-white"/>
 
 
-                <VideoComponent video="video2.mp4" size="md:h-[660px] h-[300px]"/>
+                <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/>
 
                 <ContactForm isOverlapped={false}/>
 
