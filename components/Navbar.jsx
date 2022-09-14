@@ -20,9 +20,9 @@ const Navbar = () => {
 
     return (
         <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-white">
-            <div className="max-w-[1240px] m-auto flex justify-between items-center p-4">
+            <div className="2xl:max-w-[1750px] max-w-[1240px] m-auto flex justify-between items-center p-4">
                 <Link href='/Soluciones'>
-                    <div className="">
+                    <div className="cursor-pointer">
                         <Image src={logo}
                         width={235}
                         height={55}
