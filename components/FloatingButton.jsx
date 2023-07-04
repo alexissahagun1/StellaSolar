@@ -6,7 +6,7 @@ const FloatingButton = () => {
 
         <Link href="/Contacto">
             <div className="flex justify-center md:justify-start">
-                <div className="fixed md:right-0 md:mr-4 md:bottom-[70px] bottom-0 flex z-10">
+                <div className="fixed md:left-0 md:ml-8 md:bottom-[40px] bottom-0 flex z-10">
 
                     <button type="button" style={{backgroundColor: "rgb(255, 127, 48)"}} className="text-white  font-medium rounded-lg md:text-lg px-40 md:px-5 py-2.5 text-center inline-flex items-center scale-100 md:hover:scale-125 hover:md:mr-8 ease-in duration-300">
                         Contáctanos

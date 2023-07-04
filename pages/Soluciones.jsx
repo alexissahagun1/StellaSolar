@@ -23,7 +23,7 @@ const Soluciones = () => {
     return (
         <div>
             <Title/>
-            <HeroVideo video="heroVideo.mp4" heading="Comercializamos e instalamos  sistemas fotovoltaicos para el sector industrial, comercial y residencial" message="Ahorrar y cuidar del planeta nunca fue tan sencillo" size="md:h-[789px] h-[600px]"/>
+            <HeroVideo video="heroVideo.mp4" heading="Paneles solares para hogares, comercios e industria." message="1 año de mantenimiento gratis en hogares." size="md:h-[789px] h-[600px]"/>
 
             <div className="text-center mt-[104px] flex flex-col items-center xl:mx-[420px] mx-8">
                 <h2 className="uppercase stella-orange font-semibold text-[24px] mb-8">Soluciones llave en mano para tus necesidades</h2>
@@ -56,6 +56,31 @@ const Soluciones = () => {
                 </div>
 
                 <CarouselComponent height="md:h-[400px]"/>
+
+                
+                <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
+                    <div className="flex flex-row items-center md:space-x-20 space-x-4">
+                        <div className="flex flex-col items-center">
+                            <h2 className='font-semibold md:text-6xl text-sm stella-orange'>+15000</h2>
+                            <h2 className='font-medium md:text-lg text-xs'>Paneles Instalados</h2>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <h2 className='font-semibold md:text-6xl text-sm stella-orange'>+10</h2>
+                            <h2 className='font-medium md:text-lg text-xs'>Años de experiencia</h2>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <h2 className='font-semibold md:text-6xl text-sm stella-orange'>+156 kWh</h2>
+                            <h2 className='font-medium md:text-lg text-xs'>Generados con energía solar</h2>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <h2 className='font-semibold md:text-6xl text-sm stella-orange'>+56</h2>
+                            <h2 className='font-medium md:text-lg text-xs'>Empresas han confiado en nosotros</h2>
+                        </div>
+                    </div>
+                </div>
+                
+
+
 
                 <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[65px]">
                     <div className="flex flex-row items-center">

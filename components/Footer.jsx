@@ -2,8 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import logo from '../public/Logo.png'
+import Map from './Map.jsx'
 
 const Footer = () => {
+
     return (
         <div>
 
@@ -54,6 +56,9 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
+        </div>
+        <div>
+            <Map/>
         </div>
         <div className="flex md:mt-4 space-x-6 sm:justify-center sm:mt-0 mt-10">
             <a href="https://linkedin.com/company/stellasolar-soluciones-energeticas-paneles-solares/" className="text-gray-900">

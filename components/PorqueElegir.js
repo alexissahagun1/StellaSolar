@@ -35,6 +35,13 @@ const PorqueElegirText = [
         body: "Debido a que tenemos contacto directo con los fabricantes, nosotros gestionamos los trámites de las garantías de todos nuestros productos para asegurar la satisfacción de nuestros clientes.",
         
     },
+    {
+        id: 5,
+        icon: 'icons/PorqueElegir/Icon3.png',
+        heading: "1 año mantenimiento gratis en hogares",
+        body: "Somos la única empresa en Guadalajara que otorga 1 año de mantenimiento preventivo.",
+        
+    },
    
 ]
 

@@ -37,6 +37,12 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="p-4">
+                        <Link href="/Residencial">
+                            <a className={currentRoute === "/Residencial" ? "text-black" : "text-gray-400"}>Residencial</a>
+                        </Link>
+                    </li>
+                    
+                    <li className="p-4">
                         <Link href="/Nosotros">
                             <a className={currentRoute === "/Nosotros" ? "text-black" : "text-gray-400"}>Nosotros</a>
                         </Link>
@@ -62,7 +68,13 @@ const Navbar = () => {
                             <Link href="/Soluciones#Industrias">Industrias</Link>
                         </li> */}
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
+                            <Link href="/Residencial">Residencial</Link>
+                        </li>
+                        <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Nosotros">Nosotros</Link>
+                        </li>
+                        <li onClick={handleNav}  className="text-2xl hover:text-white">
+                            <Link href="/Contacto">Contacto</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Contacto">Contacto</Link>
