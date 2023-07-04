@@ -47,7 +47,7 @@ const Residencial = () => {
                 </div>
 
 
-                <div classname="mx-auto p-4">
+                <div className="mx-auto p-4">
                     <PhotoCollage />
                 </div>
 
