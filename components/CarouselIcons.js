@@ -108,6 +108,16 @@ const carouselIcons = [
         icon: '/icons/Clientes/Icon21.png',
         link: 'https://vw-soneuro.com.mx/',
     },
+    {
+        id: 22,
+        icon: '/icons/Clientes/marisa.png',
+        link: 'https://vw-soneuro.com.mx/',
+    },
+    {
+        id: 23,
+        icon: '/icons/Clientes/CubiertosFantasy.png',
+        link: 'https://vw-soneuro.com.mx/',
+    },
 
 
 ]

@@ -51,12 +51,6 @@ const Residencial = () => {
                     <PhotoCollage />
                 </div>
 
-                
-              
-
-
-             
-
 
                 <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/>
 

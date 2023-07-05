@@ -5,6 +5,26 @@ const carouselImages = [
         
     },
     {
+        id: 26,
+        image: '/Fotos/DJI_0756_W.JPG',
+        
+    },
+    {
+        id: 27,
+        image: '/Fotos/DJI_0737_W.JPG',
+        
+    },
+    {
+        id: 28,
+        image: '/Fotos/DJI_0913.JPG',
+        
+    },
+    {
+        id: 29,
+        image: '/Fotos/DJI_0900.JPG',
+        
+    },
+    {
         id: 2,
         image: '/Fotos/Image45.jpg',
         
@@ -78,16 +98,6 @@ const carouselImages = [
     {
         id: 21,
         image: '/Fotos/Image47.jpg',
-        
-    },
-    {
-        id: 22,
-        image: '/Fotos/Image48.jpg',
-        
-    },
-    {
-        id: 23,
-        image: '/Fotos/Image49.jpg',
         
     },
     {
