@@ -6,10 +6,10 @@ import WhatsappButton from '../components/WhatsappButton'
 function MyApp({ Component, pageProps }) {
   return (
   <>
-  <Navbar/>
-  <FloatingButton/>
-  <WhatsappButton/>
-  <Component {...pageProps} />
+    <Navbar/>
+    <FloatingButton/>
+    <WhatsappButton/>
+    <Component {...pageProps} />
   </>
   )
 }
