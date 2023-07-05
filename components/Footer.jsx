@@ -12,8 +12,8 @@ const Footer = () => {
 
     
 <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 mt-10 border-t-2 border-gray-300">
-    <div className="md:flex  justify-center 3xl:justify-start md:space-x-24  lg:items-center">
-        <div className="flex flex-col mb-6 md:mb-0 space-y-4 md:items-center">
+    <div className="xl:flex  justify-center 3xl:justify-start xl:space-x-6  lg:items-center">
+        <div className="flex flex-col mb-6 md:mb-0 space-y-4 xl:items-center">
             <a href="https://stellasolar.mx" className="flex items-center">
             <div className="">
                         <Image src={logo}
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className="grid xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 gap-4 lg:gap-40 md:gap-6  mt-6">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 gap-4 lg:gap-40 xl:gap-2  mt-6">
             <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 stella-orange font-bold">Soluciones</h2>
                 <ul className="font-medium text-xs w-36 flex flex-col space-y-2">
