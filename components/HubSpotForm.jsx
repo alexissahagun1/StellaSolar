@@ -6,6 +6,7 @@ const HubSpotForm = () => {
       <script
         type="text/javascript"
         src="//js.hsforms.net/forms/embed/v2.js"
+        async
       ></script>
       <script
         dangerouslySetInnerHTML={{
@@ -17,7 +18,7 @@ const HubSpotForm = () => {
             });
           `,
         }}
-      ></script>
+      async ></script>
     </>
   );
 };
