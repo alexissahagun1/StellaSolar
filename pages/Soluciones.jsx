@@ -33,9 +33,10 @@ const Soluciones = () => {
 
             <ContentSoluciones/>
 
-            <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/>
 
-            <div id="/Soluciones#Industrias" className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8">
+            {/* <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/> */}
+
+            {/* <div id="/Soluciones#Industrias" className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8">
                 <div className="flex flex-row items-center">
                     <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
                     <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Beneficios para su industria o negocio</h2>
@@ -73,7 +74,7 @@ const Soluciones = () => {
                             <h2 className='font-medium md:text-lg text-xs'>Generados con energía solar</h2>
                         </div>
                         <div className="flex flex-col items-center">
-                            <h2 className='font-semibold md:text-6xl text-sm stella-orange'>+56</h2>
+                            <h2 className='font-semibold md:text-6xl text-sm stella-orange'>+100</h2>
                             <h2 className='font-medium md:text-lg text-xs'>Empresas han confiado en nosotros</h2>
                         </div>
                     </div>
@@ -115,7 +116,9 @@ const Soluciones = () => {
                 <IconsCarousel file={SociosIcons} numberItems={4} isAutoPlay={true} bgColor="bg-white"/>
 
 
-                <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/>
+                <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/> */}
+
+                <div className="mb-10"></div>
 
                 <ContactForm isOverlapped={false}/>
 

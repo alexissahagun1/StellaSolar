@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
-const PhotoCollage = () => {
+const PhotoCollage = ({ customPhotos }) => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 
-const handlePhotoClick = (photo) => {
+  const handlePhotoClick = (photo) => {
     setSelectedPhoto((prevSelectedPhoto) =>
       prevSelectedPhoto === photo ? null : photo
     );
   };
 
-  const photos = [
+  const defaultPhotos = [
     '/ResidencialFotos/DJI_0792.JPG',
     '/ResidencialFotos/DJI_0793.JPG',
     '/ResidencialFotos/DJI_0801.JPG',
@@ -23,6 +23,8 @@ const handlePhotoClick = (photo) => {
     '/ResidencialFotos/DJI_0843.JPG',
     '/ResidencialFotos/DJI_0868.JPG',
   ];
+
+  const photos = customPhotos ? customPhotos : defaultPhotos;
 
   return (
     <div className="grid grid-cols-4 gap-4 md:mt-20 mt-6 md:mx-32">
@@ -44,8 +46,5 @@ const handlePhotoClick = (photo) => {
     </div>
   );
 };
-
-
-
 
 export default PhotoCollage;

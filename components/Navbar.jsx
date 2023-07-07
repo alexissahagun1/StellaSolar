@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-white">
             <div className="2xl:max-w-[1750px] max-w-[1240px] m-auto flex justify-between items-center p-4">
-                <Link href='/Soluciones'>
+                <Link href='/Inicio'>
                     <div className="cursor-pointer">
                         <Image src={logo}
                         width={235}
@@ -32,6 +32,11 @@ const Navbar = () => {
                 </Link>
                 <ul className="hidden sm:flex text-sm uppercase space-x-5 font-semibold tracking-tighter">
                     <li className="p-4">
+                        <Link href="/Inicio">
+                            <a className={currentRoute === "/Inicio" ? "text-black" : "text-gray-400"}>Inicio</a>
+                        </Link>
+                    </li>
+                    <li className="p-4">
                         <Link href="/Soluciones">
                             <a className={currentRoute === "/Soluciones" ? "text-black" : "text-gray-400"}>Soluciones</a>
                         </Link>
@@ -39,6 +44,11 @@ const Navbar = () => {
                     <li className="p-4">
                         <Link href="/Residencial">
                             <a className={currentRoute === "/Residencial" ? "text-black" : "text-gray-400"}>Residencial</a>
+                        </Link>
+                    </li>
+                    <li className="p-4">
+                        <Link href="/Industria">
+                            <a className={currentRoute === "/Industria" ? "text-black" : "text-gray-400"}>Industria</a>
                         </Link>
                     </li>
                     
@@ -62,19 +72,22 @@ const Navbar = () => {
                 <div className={nav ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300" :  "sm:hidden opacity-100 absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300"}>
                     <ul className="space-y-5">
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Soluciones">Soluciones</Link>
+                            <Link href="/Inicio">Inicio</Link>
                         </li>
                         {/* <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Soluciones#Industrias">Industrias</Link>
                         </li> */}
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
+                            <Link href="/Soluciones">Soluciones</Link>
+                        </li>
+                        <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Residencial">Residencial</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Nosotros">Nosotros</Link>
+                            <Link href="/Industria">Industria</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Contacto">Contacto</Link>
+                            <Link href="/Nosotros">Nosotros</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Contacto">Contacto</Link>
