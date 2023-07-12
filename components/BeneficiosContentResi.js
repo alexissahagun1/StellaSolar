@@ -50,6 +50,13 @@ const BeneficiosTextResi = [
         heading: "Gestión en métodos de pago",
         body: "Nuestros asesores te proporcionarán opciones para financiamiento y pago de tu sistema.",  
     },
+    {
+        id: 8,
+        icon: 'Icon6.png',
+        heading: "1 año mantenimiento gratis en hogares",
+        body: "Somos la única empresa en Guadalajara que otorga 1 año de mantenimiento preventivo.",
+        
+    },
 ]
 
 export default BeneficiosTextResi; 
