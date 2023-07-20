@@ -75,8 +75,14 @@ const Footer = () => {
             </a>
         </div>
     </div>
-    <div className="sm:flex md:items-center xl:mx-14  3xl:mx-0 lg:mx-2 sm:justify-end mt-14 ">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 StellaSolar. Todos los derechos reservados
+    <div className="sm:flex md:items-center xl:mx-14  3xl:mx-0 lg:mx-2 sm:justify-end mt-14 mb-10 md:mb-0 ">
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 StellaSolar. Todos los derechos reservados  &nbsp;
+            <span className='underline'>
+                <br  className='md:hidden'/>
+                <Link href="/AvisoPrivacidad">
+                Aviso de Privacidad
+            </Link>
+            </span>
         </span>
     
     </div>
