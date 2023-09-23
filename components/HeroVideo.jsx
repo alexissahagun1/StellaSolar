@@ -6,7 +6,7 @@ const Hero = ({image, heading, message, message2, size}) => {
         <div className="flex flex-col relative">  {/* Added relative positioning */}
             <div className={`relative ${size} w-full`}>  {/* Wrapped Image with a div and applied styles */}
                 <Image 
-                    src="HeroImage.jpg "
+                    src="/HeroImage.jpg"
                     alt="Hero Image" 
                     layout="fill" 
                     objectFit="cover"  
