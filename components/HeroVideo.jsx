@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const Hero = ({video, heading, message, message2, size}) => {
+const Hero = ({image, heading, message, message2, size}) => {
     return (
         <div className="flex flex-col ">
-            <video src={video} autoPlay loop muted className={`object-cover ${size} w-full`}/>
+            <img src={image} className={`object-cover ${size} w-full`}/>
             <div className="text-white absolute flex flex-col mt-[290px] 2xl:mx-96 lg:mx-32 md:mx-20 mx-4 mb-56 xl:w-5/12 md:w-7/12">
                 <h2 className="md:text-4xl text-2xl font-medium tracking-tight pb-10">{heading}</h2>
                 <p className="font-bold leading-9 md:text-2xl text-xl stella-orange">{message}</p>
