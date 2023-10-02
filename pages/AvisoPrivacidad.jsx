@@ -11,11 +11,8 @@ const AvisoPrivacidad = () => {
     <>
       <div className="min-h-screen flex flex-col">
         <Title />
-        
-
         <div className='mt-[100px] mx-10 '>
             <h4 className='stella-orange font-bold text-2xl'>Aviso de Privacidad</h4>
-
             <p className='whitespace-break-spaces mt-4'>
                 Para Stella Solar es muy importante el respeto y la preservación de la confianza de nuestros clientes, colegas y vendedores. Su información personal siempre será tratada de manera confidencial y de acuerdo con las leyes, las directivas, los reglamentos y los principios aplicables a la protección de datos personales.
                 <br />
