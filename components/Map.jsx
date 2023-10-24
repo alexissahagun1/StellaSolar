@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleMap, LoadScript, MarkerF,  InfoWindow } from '@react-google-maps/api';
+
 
 const Map = () => {
   return (
