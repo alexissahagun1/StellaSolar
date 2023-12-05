@@ -23,7 +23,8 @@ const Soluciones = () => {
     return (
         <div>
             <Title/>
-            <HeroVideo video="heroVideo.mp4" heading="Paneles solares para hogares, comercios e industria." message="1 Año de poliza de mantenimiento gratis" size="md:h-[789px] h-[600px]"/>
+            {/* <HeroVideo video="heroVideo.mp4" heading="Paneles solares para hogares, comercios e industria." message="1 Año de poliza de mantenimiento gratis" size="md:h-[789px] h-[600px]"/> */}
+            <HeroVideo video="heroVideo.mp4" heading="" message="" size="md:h-[789px] h-[600px]"/>
 
             <div className="text-center mt-[104px] flex flex-col items-center xl:mx-[420px] mx-8">
                 <h2 className="uppercase stella-orange font-semibold text-[24px] mb-8">Soluciones llave en mano para tus necesidades</h2>
