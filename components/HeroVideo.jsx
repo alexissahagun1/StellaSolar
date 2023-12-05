@@ -9,7 +9,7 @@ const Hero = ({image, heading, message, message2, size}) => {
                     src="/HeroImage.jpg"
                     alt="Hero Image" 
                     layout="fill" 
-                    objectFit="cover"  
+                    objectFit="scale-down" 
                 />
             </div>
             <div className="text-white absolute flex flex-col mt-[290px] 2xl:mx-96 lg:mx-32 md:mx-20 mx-4 mb-56 xl:w-5/12 md:w-7/12">
