@@ -22,7 +22,8 @@ const Residencial = () => {
     return (
         <div>
             <Title/>
-            <HeroVideo video="heroVideo.mp4" heading="Paneles solares para su hogar." message="1 año de mantenimiento gratis." size="md:h-[789px] h-[600px]"/>
+            {/* <HeroVideo video="heroVideo.mp4" heading="Paneles solares para su hogar." message="1 año de mantenimiento gratis." size="md:h-[789px] h-[600px]"/> */}
+            <HeroVideo video="heroVideo.mp4" heading="" message="" size="md:h-[789px] h-[350px]"/>
 
             <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/>
 

@@ -13,7 +13,8 @@ const Nosotros = () => {
     return (
         <div>
             <Title/>
-            <HeroVideo video="heroVideo.mp4" heading="Soluciones de energía solar" message2="Nuestro propósito, experiencia y valores corporativos." size="h-[594px]"/>
+            {/* <HeroVideo video="heroVideo.mp4" heading="Soluciones de energía solar" message2="Nuestro propósito, experiencia y valores corporativos." size="h-[594px]"/> */}
+            <HeroVideo video="heroVideo.mp4" heading="" message="" size="md:h-[789px] h-[350px]"/>
 
             <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
                 <div className="flex flex-col space-y-4 items-center">
