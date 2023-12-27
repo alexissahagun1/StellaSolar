@@ -34,11 +34,6 @@ const carouselIcons = [
         link: 'https://gruporequiez.com/',
     },
     {
-        id: 7,
-        icon: '/icons/Clientes/Icon7.png',
-        link: 'https://gruposolana.com/new/grupo-solana/public/',
-    },
-    {
         id: 8,
         icon: '/icons/Clientes/Icon8.png',
         link: 'https://www.grupotenerife.com.mx/',
@@ -92,11 +87,6 @@ const carouselIcons = [
         id: 18,
         icon: '/icons/Clientes/Icon18.png',
         link: 'http://www.saplagsa.com.mx/',
-    },
-    {
-        id: 19,
-        icon: '/icons/Clientes/Icon19.png',
-        link: 'https://www.solanasuzuki.com/',
     },
     {
         id: 20,
