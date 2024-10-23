@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
         </div>
         <div>
-            
+
             <Map/>
         </div>
         <div className="flex md:mt-4 space-x-6 sm:justify-center sm:mt-0 mt-10">
@@ -89,7 +89,6 @@ const Footer = () => {
     </div>
 </footer>
        
-
 
 
         </div>
