@@ -10,16 +10,9 @@ import { useEffect } from 'react'
 
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    const tagManagerArgs ={
-      gtmId: 'GTM-W4R2RVBR'
-    }
-    TagManager.initialize(tagManagerArgs)
-  })
-  
+
   return (
     <>
-
       <Navbar/>
       <FloatingButton/>
       <FloatingPhoneButton />

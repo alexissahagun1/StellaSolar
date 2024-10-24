@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="w-56 space-y-4">
                 <p className="text-xs font-medium">Comercializamos e instalamos sistemas fotovoltaicos para el sector industrial, comercial y residencial</p>
                 <p className="text-xs font-bold stella-orange">Ahorrar y cuidar del planeta nunca fue tan sencillo como hasta ahora.</p>
-                <p className="text-xs font-medium stella-orange">Teléfono: <span className="text-gray-600">33 2265 0345</span></p>
+                <p className="text-xs font-medium stella-orange">Teléfono: <span className="text-gray-600">33 1341 0027</span></p>
                 <p className="text-xs text-gray-600 font-medium">Horario de atención: 9:00 a 18:00 hrs</p>
             </div>
             
@@ -58,6 +58,7 @@ const Footer = () => {
             </div>
         </div>
         <div>
+
             <Map/>
         </div>
         <div className="flex md:mt-4 space-x-6 sm:justify-center sm:mt-0 mt-10">
@@ -88,7 +89,6 @@ const Footer = () => {
     </div>
 </footer>
        
-
 
 
         </div>

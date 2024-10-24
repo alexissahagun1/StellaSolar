@@ -20,7 +20,12 @@ const Inicio = () => {
         <div>
             <Title/>
             {/* <HeroVideo heading="Paneles solares para hogares, comercios e industria." message="1 Año de poliza de mantenimiento gratis" size="md:h-[789px] h-[600px]"/> */}
-            <HeroVideo video="heroVideo.mp4" heading="" message="" size="md:h-[789px] h-[350px]"/>
+            <HeroVideo
+                video="heroVideo.mp4"
+                heading="Paneles solares para hogares, comercios e industria." 
+                message="1 Año de poliza de mantenimiento gratis" 
+                size="md:h-[789px] h-[350px]"/>
+                
             <div className="text-center flex flex-col items-center mx-4 md:mx-0 md:mt-[90px] mt-[85px]">
                     <div className="flex flex-row items-center md:space-x-20 space-x-4">
                         <div className="flex flex-col items-center">

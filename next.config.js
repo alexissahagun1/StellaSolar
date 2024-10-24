@@ -6,7 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/Soluciones',
+        destination: '/Inicio',
         permanent: true,
       },
     ]
@@ -18,10 +18,6 @@ const nextConfig = {
 
   
 }
-
-
-
-  
 
 
 module.exports = nextConfig
