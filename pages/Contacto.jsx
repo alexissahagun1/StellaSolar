@@ -20,9 +20,7 @@ const Contacto = () => {
         <ContactForm>
         </ContactForm>
       </div>
-
       <CardContact />
-      
       <Footer />
     </>
   );
