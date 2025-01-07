@@ -10,7 +10,6 @@ import FloatingPhoneButton from '../components/FloatingPhoneButton';
 
 
 function MyApp({ Component, pageProps }) {
-
   return (
     <>
       <Navbar/>
